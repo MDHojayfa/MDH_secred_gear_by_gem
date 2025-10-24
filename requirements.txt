@@ -1,0 +1,19 @@
+# Core AI and RAG System
+google-genai                     # Primary AI Model (Gemini)
+langchain
+langchain-core
+langchain-google-genai
+chromadb                         # Free, local vector database
+sentence-transformers            # Free embedding model for RAG
+
+# Free Scanners & Tools Integration
+requests
+beautifulsoup4                   # For OSINT/Report Scraping
+
+# CLI & UX Requirements (Hacker Terminal, Progress)
+rich                             # For the Matrix-style output, tables, and progress
+prompt_toolkit                   # For the Live Chat Interface
+
+# Configuration
+python-dotenv                    # For loading configuration from .env
+PyYAML                           # For config.yaml support
